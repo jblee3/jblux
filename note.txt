@@ -1,0 +1,22 @@
+
+크로스 컴파일 환경 설치
+sudo apt-get install gcc-arm-none-eabi
+
+arm-none-eabi-gcc --verion
+arm-none-eabi-gcc -v
+
+QEMU 설치
+sudo apt install qemu-system-arm
+
+qemu-system-arm --version
+
+qemu-system-arm -M ?   : 지원하는 머신 종류 
+...
+connex               Gumstix Connex (PXA255)
+...
+
+U-Boot Download
+denx.de/wiki/U-Boot/WebHome
+gitlab.denx.de/u-boot/u-boot
+
+
